@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For Riya ❤️</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<canvas id="particles"></canvas>
+
+<div class="container">
+
+  <div class="scene active" id="s1">
+    <h1 class="typing" data-text="POV: It's her birthday..."></h1>
+  </div>
+
+  <div class="scene" id="s2">
+    <h1 class="typing" data-text="Someone special..."></h1>
+  </div>
+
+  <div class="scene" id="s3">
+    <h1 class="typing" data-text="Someone beautiful..."></h1>
+  </div>
+
+  <div class="scene" id="s4">
+    <h1 class="typing" data-text="Someone amazing..."></h1>
+  </div>
+
+  <!-- SLIDESHOW -->
+  <div class="scene" id="s5">
+    <img id="slideImg" src="photo1.jpg">
+    <h1 class="final">Happy Birthday Riya ❤️</h1>
+  </div>
+
+</div>
+
+<audio id="music" src="music.mp3"></audio>
+
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>

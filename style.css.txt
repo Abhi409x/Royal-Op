@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  background: black;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  overflow: hidden;
+}
+
+#particles {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  position: relative;
+  height: 100vh;
+}
+
+.scene {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transform: scale(1.2);
+  transition: 1.5s ease;
+}
+
+.scene.active {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.typing {
+  font-size: 28px;
+  border-right: 2px solid white;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+/* SLIDESHOW IMAGE */
+#slideImg {
+  width: 260px;
+  border-radius: 20px;
+  opacity: 0;
+  transform: scale(1.2);
+  transition: all 1.5s ease;
+}
+
+/* ACTIVE IMAGE */
+#slideImg.show {
+  opacity: 1;
+  transform: scale(1);
+}
+
+/* FINAL TEXT */
+.final {
+  position: absolute;
+  bottom: 15%;
+  font-size: 24px;
+  text-shadow: 0 0 10px pink, 0 0 20px red;
+}
